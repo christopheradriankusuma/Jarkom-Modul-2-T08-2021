@@ -12,3 +12,4 @@ $TTL    604800
 @       IN      NS      T08.com.
 @       IN      A       192.215.2.2
 www     IN      CNAME   T08.com.
+franky  IN      A       192.215.2.3
