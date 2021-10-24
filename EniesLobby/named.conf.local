@@ -1,0 +1,9 @@
+zone "T08.com" {
+        type master;
+        file "/etc/bind/T08/T08.com";
+};
+
+zone "2.215.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/T08/2.215.192.in-addr.arpa";
+};
