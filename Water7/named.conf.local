@@ -1,5 +1,5 @@
-zone "T08.com" {
+zone "franky.T08.com" {
     type slave;
     masters { 192.215.2.2; };
-    file "/var/lib/bind/T08.com";
+    file "/var/lib/bind/franky.T08.com";
 };
