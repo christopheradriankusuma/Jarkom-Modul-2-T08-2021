@@ -10,5 +10,5 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @       IN      NS      mecha.franky.T08.com.
-@       IN      A       192.215.2.3
-www     IN      A       192.215.2.3
+@       IN      A       192.215.2.4
+www     IN      A       192.215.2.4
