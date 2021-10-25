@@ -3,10 +3,10 @@ zone "T08.com" {
         notify yes;
         also-notify { 192.215.2.3; };
         allow-transfer { 192.215.2.3; };
-        file "/etc/bind/T08/T08.com";
+        file "/etc/bind/kaizoku/T08.com";
 };
 
 zone "2.215.192.in-addr.arpa" {
     type master;
-    file "/etc/bind/T08/2.215.192.in-addr.arpa";
+    file "/etc/bind/kaizoku/2.215.192.in-addr.arpa";
 };
