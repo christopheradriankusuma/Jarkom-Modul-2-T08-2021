@@ -10,7 +10,7 @@ $TTL    604800
                          604800 )       ; Negative Cache TTL
 ;
 @               IN      NS      franky.T08.com.
-@               IN      A       192.215.2.2
+@               IN      A       192.215.2.4
 www             IN      CNAME   franky.T08.com.
 super           IN      A       192.215.2.4
 www.super       IN      CNAME   super.franky.T08.com.
