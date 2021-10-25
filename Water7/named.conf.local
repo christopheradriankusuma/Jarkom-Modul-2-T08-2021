@@ -3,3 +3,8 @@ zone "franky.T08.com" {
     masters { 192.215.2.2; };
     file "/var/lib/bind/franky.T08.com";
 };
+
+zone "mecha.franky.T08.com" {
+        type master;
+        file "/etc/bind/sunnygo/mecha.franky.T08.com";
+};

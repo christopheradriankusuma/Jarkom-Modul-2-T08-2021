@@ -9,6 +9,8 @@ $TTL    604800
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
-@       IN      NS      mecha.franky.T08.com.
-@       IN      A       192.215.2.4
-www     IN      A       192.215.2.4
+@               IN      NS      mecha.franky.T08.com.
+@               IN      A       192.215.2.4
+www             IN      CNAME   mecha.franky.T08.com.
+general         IN      A       192.215.2.4
+www.general     IN      CNAME   general.mecha.franky.T08.com.
