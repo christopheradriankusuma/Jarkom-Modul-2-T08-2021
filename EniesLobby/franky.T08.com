@@ -14,3 +14,5 @@ $TTL    604800
 www             IN      CNAME   franky.T08.com.
 super           IN      A       192.215.2.4
 www.super       IN      CNAME   super.franky.T08.com.
+ns1             IN      A       192.215.2.3
+mecha           IN      NS      ns1
