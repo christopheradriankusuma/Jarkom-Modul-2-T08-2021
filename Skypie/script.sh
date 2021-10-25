@@ -4,3 +4,5 @@ apt update
 apt install apache2 -y
 apt install php -y
 apt install libapache2-mod-php7.0 -y
+apt install git -y
+apt install unzip -y
