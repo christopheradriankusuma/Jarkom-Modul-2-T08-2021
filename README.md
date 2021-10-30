@@ -452,5 +452,7 @@ seperti ini :
 5. untuk menampilkan rewrite engine dibutuhkan .htacess seperti pada gambar.
 ![Soal 12_1](images/12_1.png)
 
-
+	    
+## Kendala yang dialami
+- Tidak ada
 
