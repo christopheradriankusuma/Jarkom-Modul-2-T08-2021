@@ -336,7 +336,7 @@ Selanjutnya mencoba membuka `super.www.franky.T08.com` dengan lynx pada *Logueto
 ## 12. Tidak hanya itu, Luffy juga menyiapkan error file 404.html pada folder /error untuk mengganti error kode pada apache .
 
 ### Solusi
-Untuk mengganti, pindah ke /var/www/super.www.franky.T08.com lalu membuat .htaccess
+Untuk mengganti, pindah ke `/var/www/super.www.franky.T08.com` lalu membuat .htaccess
 
 ![Soal 12_1](images/12_1.png)
 
