@@ -336,7 +336,7 @@ Selanjutnya mencoba membuka `super.www.franky.T08.com` dengan lynx pada *Logueto
 ## 12. Tidak hanya itu, Luffy juga menyiapkan error file 404.html pada folder /error untuk mengganti error kode pada apache .
 
 ### Solusi
-Untuk mengganti, pindah ke /var/www/super.www.franky.T08.com lalu membuat .htaccess
+Untuk mengganti, pindah ke `/var/www/super.www.franky.T08.com` lalu membuat .htaccess
 
 ![Soal 12_1](images/12_1.png)
 
@@ -344,6 +344,8 @@ Selanjutnya mencoba membuka `super.www.franky.T08.com` dengan lynx pada *Logueto
 
 ![Soal 12_2](images/12_2.png)
 ![Soal 12_3](images/12_3.png)
+
+## Nomer 13
 ### Luffy juga meminta Nami untuk dibuatkan konfigurasi virtual host. Virtual host ini bertujuan untuk dapat mengakses file asset www.super.franky.yyy.com/public/js menjadi www.super.franky.yyy.com/js.
 1. Pindah ke directory `/etc/apache2/sites-available` kemudian buka file    `nano franky.T08.com.conf` dan tambahkan
     ```
