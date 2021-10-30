@@ -447,6 +447,8 @@ seperti ini :
     ```
 4. Lalu edit `/var/www/super.franky.T08.com` agar memiliki RewriteRule untuk mengarahkan semua akses yang memiliki substring "franky" menjadi menuju /public/images/franky.png.
 ![rewrite](images/17.1.png)
+5. untuk menampilkan rewrite engine dibutuhkan .htacess seperti pada gambar.
+![Soal 12_1](images/12_1.png)
 
 
 
